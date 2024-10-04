@@ -5,7 +5,7 @@ with(this){return _c('div',{attrs:{"id":"app"}},[_c('header',{attrs:{"sticky":""
 };
     var pageVueStaticRenderFns = [function anonymous(
 ) {
-with(this){return _c('h1',{attrs:{"id":"ab-3-developer-guide"}},[_v("AB-3 Developer Guide"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#ab-3-developer-guide","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h1',{attrs:{"id":"universe-developer-guide"}},[_v("UniVerse Developer Guide"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#universe-developer-guide","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"acknowledgements"}},[_c('strong',[_v("Acknowledgements")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acknowledgements","onclick":"event.stopPropagation()"}})])}
@@ -203,13 +203,13 @@ with(this){return _c('h2',{attrs:{"id":"appendix-requirements"}},[_c('strong',[_
 with(this){return _c('h3',{attrs:{"id":"product-scope"}},[_v("Product scope"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#product-scope","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Target user profile")]),_v(":")])}
+with(this){return _c('p',[_c('strong',[_v("Target user profile")]),_v(": University students who")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("has a need to manage a significant number of contacts")]),_v(" "),_c('li',[_v("prefer desktop apps over other types")]),_v(" "),_c('li',[_v("can type fast")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps")])])}
+with(this){return _c('ul',[_c('li',[_v("want to make friends and grow their professional networks by having an all-in-one platform that consolidates all the information (contact details, interests, academic backgrounds and work experience).")]),_v(" "),_c('li',[_v("prefer desktop apps over other types")]),_v(" "),_c('li',[_v("can type fast")]),_v(" "),_c('li',[_v("prefers typing to mouse interactions")]),_v(" "),_c('li',[_v("is reasonably comfortable using CLI apps")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(": manage contacts faster than a typical mouse/GUI driven app")])}
+with(this){return _c('p',[_c('strong',[_v("Value proposition")]),_v(": It offers university students one-stop access to professional networks and allows them to easily build, manage and maintain their contact information, interests, academic backgrounds and work experience.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"user-stories"}},[_v("User stories"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#user-stories","onclick":"event.stopPropagation()"}})])}
@@ -218,7 +218,7 @@ with(this){return _c('h3',{attrs:{"id":"user-stories"}},[_v("User stories"),_c('
 with(this){return _c('p',[_v("Priorities: High (must have) - "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")]),_v(", Medium (nice to have) - "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* *")]),_v(", Low (unlikely to have) - "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("*")])])}
 },function anonymous(
 ) {
-with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',[_v("Priority")]),_v(" "),_c('th',[_v("As a …​")]),_v(" "),_c('th',[_v("I want to …​")]),_v(" "),_c('th',[_v("So that I can…​")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("new user")]),_v(" "),_c('td',[_v("see usage instructions")]),_v(" "),_c('td',[_v("refer to instructions when I forget how to use the App")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("user")]),_v(" "),_c('td',[_v("add a new person")]),_v(" "),_c('td')]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("user")]),_v(" "),_c('td',[_v("delete a person")]),_v(" "),_c('td',[_v("remove entries that I no longer need")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("user")]),_v(" "),_c('td',[_v("find a person by name")]),_v(" "),_c('td',[_v("locate details of persons without having to go through the entire list")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* *")])]),_v(" "),_c('td',[_v("user")]),_v(" "),_c('td',[_v("hide private contact details")]),_v(" "),_c('td',[_v("minimize chance of someone else seeing them by accident")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("*")])]),_v(" "),_c('td',[_v("user with many persons in the address book")]),_v(" "),_c('td',[_v("sort persons by name")]),_v(" "),_c('td',[_v("locate a person easily")])])])])])}
+with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',[_v("Priority")]),_v(" "),_c('th',[_v("As a …​")]),_v(" "),_c('th',[_v("I want to …​")]),_v(" "),_c('th',[_v("So that I can…​")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("university student")]),_v(" "),_c('td',[_v("add a new contact with basic details like name, university, and major")]),_v(" "),_c('td',[_v("start building my professional network from school")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("university student")]),_v(" "),_c('td',[_v("delete a contact from my network")]),_v(" "),_c('td',[_v("keep my contact list clean and up-to-date")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("university student")]),_v(" "),_c('td',[_v("search for contacts by their major")]),_v(" "),_c('td',[_v("connect with peers in the same academic field")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* * *")])]),_v(" "),_c('td',[_v("aspiring university student")]),_v(" "),_c('td',[_v("add internship or work experience to a contact")]),_v(" "),_c('td',[_v("network with people who have relevant industry experience")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("* *")])]),_v(" "),_c('td',[_v("lonely university student")]),_v(" "),_c('td',[_v("add interests and hobbies to a contact")]),_v(" "),_c('td',[_v("remember what we have in common")])]),_v(" "),_c('tr',[_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("*")])]),_v(" "),_c('td',[_v("sociable university student")]),_v(" "),_c('td',[_v("add social media links (e.g., LinkedIn, Instagram) to a contact")]),_v(" "),_c('td',[_v("connect with people on other social platforms")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -353,6 +353,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 4 Oct 2024, 5:48:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 4 Oct 2024, 9:57:06 GMT+8]")])])])}
 }];
   
