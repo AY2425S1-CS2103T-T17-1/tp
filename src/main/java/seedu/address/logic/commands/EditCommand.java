@@ -3,9 +3,12 @@ package seedu.address.logic.commands;
 import static java.util.Objects.requireNonNull;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_ADDRESS;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_EMAIL;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_INTEREST;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_MAJOR;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_TAG;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_UNIVERSITY;
 import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
 
 import java.util.Collections;
@@ -23,9 +26,12 @@ import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
 import seedu.address.model.person.Address;
 import seedu.address.model.person.Email;
+import seedu.address.model.person.Interest;
+import seedu.address.model.person.Major;
 import seedu.address.model.person.Name;
 import seedu.address.model.person.Person;
 import seedu.address.model.person.Phone;
+import seedu.address.model.person.University;
 import seedu.address.model.tag.Tag;
 
 /**
@@ -46,7 +52,10 @@ public class EditCommand extends Command {
             + "[" + PREFIX_TAG + "TAG]...\n"
             + "Example: " + COMMAND_WORD + " 1 "
             + PREFIX_PHONE + "91234567 "
-            + PREFIX_EMAIL + "johndoe@example.com";
+            + PREFIX_EMAIL + "johndoe@example.com"
+            + PREFIX_UNIVERSITY + "NUS"
+            + PREFIX_MAJOR + "Computer Science"
+            + PREFIX_INTEREST + "Swimming";
 
     public static final String MESSAGE_EDIT_PERSON_SUCCESS = "Edited Person: %1$s";
     public static final String MESSAGE_NOT_EDITED = "At least one field to edit must be provided.";
@@ -100,8 +109,13 @@ public class EditCommand extends Command {
         Email updatedEmail = editPersonDescriptor.getEmail().orElse(personToEdit.getEmail());
         Address updatedAddress = editPersonDescriptor.getAddress().orElse(personToEdit.getAddress());
         Set<Tag> updatedTags = editPersonDescriptor.getTags().orElse(personToEdit.getTags());
-        String updatedInterest = editPersonDescriptor.getInterest().orElse(personToEdit.getInterest());
-        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedTags, "");
+        // Add the new fields
+        University updatedUniversity = editPersonDescriptor.getUniversity().orElse(personToEdit.getUniversity());
+        Major updatedMajor = editPersonDescriptor.getMajor().orElse(personToEdit.getMajor());
+        Interest updatedInterest = editPersonDescriptor.getInterest().orElse(personToEdit.getInterest());
+
+        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedTags,
+                updatedUniversity, updatedMajor, updatedInterest);
     }
 
     @Override
@@ -138,7 +152,10 @@ public class EditCommand extends Command {
         private Email email;
         private Address address;
         private Set<Tag> tags;
-        private String interest;
+        private Interest interest;
+        private University university;
+        private Major major;
+
         public EditPersonDescriptor() {}
 
         /**
@@ -151,13 +168,16 @@ public class EditCommand extends Command {
             setEmail(toCopy.email);
             setAddress(toCopy.address);
             setTags(toCopy.tags);
+            setUniversity(toCopy.university);
+            setMajor(toCopy.major);
         }
 
         /**
          * Returns true if at least one field is edited.
          */
         public boolean isAnyFieldEdited() {
-            return CollectionUtil.isAnyNonNull(name, phone, email, address, tags);
+            return CollectionUtil.isAnyNonNull(name, phone, email, address, tags,
+                    university, major);
         }
 
         public void setName(Name name) {
@@ -184,11 +204,11 @@ public class EditCommand extends Command {
             return Optional.ofNullable(email);
         }
 
-        public void setInterest(String interest) {
+        public void setInterest(Interest interest) {
             this.interest = interest;
         }
 
-        public Optional<String> getInterest() {
+        public Optional<Interest> getInterest() {
             return Optional.ofNullable(interest);
         }
 
@@ -217,6 +237,22 @@ public class EditCommand extends Command {
             return (tags != null) ? Optional.of(Collections.unmodifiableSet(tags)) : Optional.empty();
         }
 
+        public void setUniversity(University university) {
+            this.university = university;
+        }
+
+        public Optional<University> getUniversity() {
+            return Optional.ofNullable(university);
+        }
+
+        public void setMajor(Major major) {
+            this.major = major;
+        }
+
+        public Optional<Major> getMajor() {
+            return Optional.ofNullable(major);
+        }
+
         @Override
         public boolean equals(Object other) {
             if (other == this) {
@@ -233,7 +269,9 @@ public class EditCommand extends Command {
                     && Objects.equals(phone, otherEditPersonDescriptor.phone)
                     && Objects.equals(email, otherEditPersonDescriptor.email)
                     && Objects.equals(address, otherEditPersonDescriptor.address)
-                    && Objects.equals(tags, otherEditPersonDescriptor.tags);
+                    && Objects.equals(tags, otherEditPersonDescriptor.tags)
+                    && Objects.equals(university, otherEditPersonDescriptor.university)
+                    && Objects.equals(major, otherEditPersonDescriptor.major);
         }
 
         @Override
@@ -244,6 +282,8 @@ public class EditCommand extends Command {
                     .add("email", email)
                     .add("address", address)
                     .add("tags", tags)
+                    .add("university", university)
+                    .add("major", major)
                     .toString();
         }
     }

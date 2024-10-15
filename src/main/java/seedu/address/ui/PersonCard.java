@@ -43,6 +43,14 @@ public class PersonCard extends UiPart<Region> {
     @FXML
     private Label interest;
 
+    @FXML
+    private Label university;
+
+    @FXML
+    private Label major;
+
+
+
     /**
      * Creates a {@code PersonCode} with the given {@code Person} and index to display.
      */
@@ -52,11 +60,14 @@ public class PersonCard extends UiPart<Region> {
         id.setText(displayedIndex + ". ");
         name.setText(person.getName().fullName);
         phone.setText(person.getPhone().value);
-        interest.setText(person.getInterest());
+        interest.setText(person.getInterest().value);
         address.setText(person.getAddress().value);
         email.setText(person.getEmail().value);
         person.getTags().stream()
                 .sorted(Comparator.comparing(tag -> tag.tagName))
                 .forEach(tag -> tags.getChildren().add(new Label(tag.tagName)));
+        university.setText(person.getUniversity().value);
+        major.setText(person.getMajor().value);
+
     }
 }
