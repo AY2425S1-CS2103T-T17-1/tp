@@ -117,6 +117,8 @@
         "editing-a-person-edit": "Editing a person : edit",
         "locating-persons-by-name-find": "Locating persons by name: find",
         "finding-contacts-by-interest-findi": "Finding Contacts by Interest: findi",
+        "finding-contacts-by-major-findm": "Finding Contacts by Major: findm",
+        "finding-contacts-by-work-experience-findw": "Finding Contacts by Work Experience: findw",
         "deleting-a-person-delete": "Deleting a person : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
