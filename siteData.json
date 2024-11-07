@@ -148,6 +148,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/jeremy.md",
+      "title": "Jeremy's Project Portfolio Page",
+      "headings": {
+        "project-universe": "Project: UniVerse"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/johndoe.md",
       "title": "John Doe's Project Portfolio Page",
       "headings": {
