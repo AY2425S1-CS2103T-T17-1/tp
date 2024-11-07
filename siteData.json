@@ -142,6 +142,7 @@
     },
     {
       "src": "team/chenle.md",
+      "title": "Chen Le's Project Portfolio Page",
       "headings": {
         "project-universe": "Project: UniVerse"
       },
@@ -156,10 +157,10 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
+      "src": "team/vera.md",
+      "title": "Vera's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-universe": "Project: UniVerse"
       },
       "headingKeywords": {}
     }
