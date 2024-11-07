@@ -61,8 +61,11 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data",
+        "commands-to-test": "Commands to Test",
+        "1-adding-interests-addi": "1. Adding Interests: addi",
+        "2-adding-work-experience-addw": "2. Adding Work Experience: addw",
+        "3-finding-contacts-by-interest-findi": "3. Finding Contacts by Interest: findi",
+        "4-finding-contacts-by-work-experience-findw": "4. Finding Contacts by Work Experience: findw",
         "appendix-effort": "Appendix: Effort"
       },
       "headingKeywords": {}
