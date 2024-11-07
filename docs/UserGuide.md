@@ -254,13 +254,25 @@ Format:
 findi i/INTEREST
 ```
 
-- `i/INTEREST`: Interest to search for.
+- `i/INTEREST`: Interest to search for. 
+
+**Note**: Multiple interests can be searched in a single command or through separate commands.
 
 Example:
+- Finds all contacts with a specific interest:
+  ```plaintext
+  findi i/cycling
+  ```
 
-```plaintext
-findi i/Swimming
-```
+- Finds contacts with multiple interests:
+  ```plaintext
+  findi i/cycling, reading
+  ```
+
+- Finds all contacts with target interests:
+  ```plaintext
+  findi i/cycling i/reading
+  ```
 
 <br>
 
