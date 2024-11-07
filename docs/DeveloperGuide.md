@@ -1,7 +1,7 @@
 ---
   layout: default.md
     title: "Developer Guide"
-    pageNav: 3it
+    pageNav: 3
 ---
 
 # UniVerse Developer Guide
