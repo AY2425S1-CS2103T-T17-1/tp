@@ -68,7 +68,8 @@
         "4-finding-contacts-by-work-experience-findw": "4. Finding Contacts by Work Experience: findw",
         "5-finding-contacts-by-major-findm": "5. Finding Contacts by Major: findm",
         "6-finding-contacts-by-major-findu": "6. Finding Contacts by Major: findu",
-        "appendix-effort": "Appendix: Effort"
+        "appendix-effort": "Appendix: Effort",
+        "key-efforts-and-challenges": "Key Efforts and Challenges"
       },
       "headingKeywords": {}
     },
@@ -179,7 +180,7 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/vera.md",
+      "src": "team/verakohh.md",
       "title": "Vera's Project Portfolio Page",
       "headings": {
         "project-universe": "Project: UniVerse"
