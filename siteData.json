@@ -67,7 +67,7 @@
         "3-finding-contacts-by-interest-findi": "3. Finding Contacts by Interest: findi",
         "4-finding-contacts-by-work-experience-findw": "4. Finding Contacts by Work Experience: findw",
         "5-finding-contacts-by-major-findm": "5. Finding Contacts by Major: findm",
-        "6-finding-contacts-by-major-findu": "6. Finding Contacts by Major: findu",
+        "6-finding-contacts-by-university-findu": "6. Finding Contacts by University: findu",
         "appendix-effort": "Appendix: Effort",
         "key-efforts-and-challenges": "Key Efforts and Challenges"
       },
@@ -169,7 +169,7 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/tzecheng.md",
+      "src": "team/kuiktzecheng.md",
       "title": "Tze Cheng's Project Portfolio Page",
       "headings": {
         "project-universe": "Project: UniVerse"
