@@ -356,7 +356,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to search for contacts by 
 with(this){return _c('p',[_c('strong',[_v("Extensions")]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("1a")]),_v(": User enters an incomplete or improperly formatted "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw")]),_v(" command.\n"),_c('ul',[_c('li',[_c('strong',[_v("1a1")]),_v(": UniVerse displays an error message indicating the proper format (e.g., \"Invalid command format! Use: findw w/COMPANY[,ROLE][,YEAR]\").")]),_v(" "),_c('li',[_c('strong',[_v("1a2")]),_v(": User re-enters the command with corrected input.")]),_v(" "),_c('li',[_c('strong',[_v("1a3")]),_v(": Use case resumes at step 1.")])])]),_v(" "),_c('li',[_c('strong',[_v("2a")]),_v(": No contacts match the specified work experience.\n"),_c('ul',[_c('li',[_c('strong',[_v("2a1")]),_v(": UniVerse displays a \"0 persons listed!\" message.")]),_v(" "),_c('li',[_c('strong',[_v("2a2")]),_v(": Use case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("1a")]),_v(": User enters an incomplete or improperly formatted "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw")]),_v(" command.\n"),_c('ul',[_c('li',[_c('strong',[_v("1a1")]),_v(": UniVerse displays an error message indicating the proper format (e.g., \"Invalid command format! Use: findw w/[ROLE]COMPANY[,YEAR]\").")]),_v(" "),_c('li',[_c('strong',[_v("1a2")]),_v(": User re-enters the command with corrected input.")]),_v(" "),_c('li',[_c('strong',[_v("1a3")]),_v(": Use case resumes at step 1.")])])]),_v(" "),_c('li',[_c('strong',[_v("2a")]),_v(": No contacts match the specified work experience.\n"),_c('ul',[_c('li',[_c('strong',[_v("2a1")]),_v(": UniVerse displays a \"0 persons listed!\" message.")]),_v(" "),_c('li',[_c('strong',[_v("2a2")]),_v(": Use case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"use-case-search-for-contacts-by-interest"}},[_c('strong',[_v("Use Case: Search for Contacts by Interest")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-search-for-contacts-by-interest","onclick":"event.stopPropagation()"}})])}
@@ -473,13 +473,13 @@ with(this){return _c('p',[_c('strong',[_v("Test case 1:")]),_v(" "),_c('code',{p
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v(" Lists all contacts who have worked at Amazon.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Test case 2:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw w/Meta,Intern")])])}
+with(this){return _c('p',[_c('strong',[_v("Test case 2:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw w/Intern,Meta")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v("   Lists contacts who interned at Meta.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Test case 3:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw w/Google,Intern,2023")])])}
+with(this){return _c('p',[_c('strong',[_v("Test case 3:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("findw w/Intern,Google,2023")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v(" Lists contacts who interned at Google in 2023.")])}
@@ -554,6 +554,6 @@ with(this){return _c('p',[_c('strong',[_v("Achievements")]),_v(":")])}
 with(this){return _c('ul',[_c('li',[_v("The project successfully extended the original AB3 with functionality focused on university students' needs, balancing ease of use and powerful data organization.")]),_v(" "),_c('li',[_v("Careful planning and rigorous testing ensured the new features did not introduce regressions or instability.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 21:42:53 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 21:43:33 GMT+8]")])])])}
 }];
   
