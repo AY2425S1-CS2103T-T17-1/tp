@@ -437,13 +437,13 @@ with(this){return _c('h3',{attrs:{"id":"2-adding-work-experience-addw"}},[_v("2.
 with(this){return _c('p',[_c('strong',[_v("Test case 1:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addw in/1 w/SoftwareEngineer,Google,2023")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v(" Adds the work experience \"SoftwareEngineer at Google in 2023\" to the contact at index 1.")])}
+with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v(" Adds the work experience \"SoftwareEngineer,Google,2023\" to the contact at index 1.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Test case 2:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addw in/2 w/DataScientist,Meta,2022")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v("  Adds \"DataScientist at Meta in 2022\" to the contact at index 2.")])}
+with(this){return _c('p',[_c('em',[_c('strong',[_v("Expected:")])]),_v("  Adds \"DataScientist,Meta,2022\" to the contact at index 2.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Test case 3:")]),_v(" "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addw in/3 w/")])])}
@@ -563,6 +563,6 @@ with(this){return _c('p',[_c('strong',[_v("Achievements")]),_v(":")])}
 with(this){return _c('ul',[_c('li',[_v("The project successfully extended the original AB3 with functionality focused on university students' needs, balancing ease of use and powerful data organization.")]),_v(" "),_c('li',[_v("Careful planning and rigorous testing ensured the new features did not introduce regressions or instability.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 19:57:44 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 19:59:29 GMT+8]")])])])}
 }];
   
