@@ -620,6 +620,6 @@ with(this){return _c('p',[_c('strong',[_v("Example")]),_v(":")])}
 with(this){return _c('ul',[_c('li',[_v("Command: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addw in/1 w/Intern,Google,2035")]),_v(" "),_c('ul',[_c('li',[_c('strong',[_v("Current Behavior")]),_v(": This command would be accepted even though the work experience date (2035) is far in the future.")]),_v(" "),_c('li',[_c('strong',[_v("Planned Behavior")]),_v(": The command will be rejected with an error message if the work experience year exceeds the limit (e.g., current year + 2 years), ensuring more realistic data entry.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 20:59:03 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 23:43:42 GMT+8]")])])])}
 }];
   
